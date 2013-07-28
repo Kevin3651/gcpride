@@ -1,4 +1,5 @@
 Gcpride::Application.routes.draw do         
+   resources :users
   get '/signup', :to =>'users#new'
 root :to => 'static_pages#home'
 get '/static_pages/home', :to =>'static_pages#home'
