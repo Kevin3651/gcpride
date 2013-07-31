@@ -5,6 +5,8 @@ source 'https://rubygems.org'
 gem 'rails', '4.0.0'
 gem 'bootstrap-sass', '2.3.2.0'
 gem 'bcrypt-ruby', '3.0.1'
+gem 'protected_attributes'
+gem 'activerecord'
 
 group :development do
   gem 'sqlite3', '1.3.7'
